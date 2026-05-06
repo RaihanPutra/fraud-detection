@@ -1,0 +1,36 @@
+# Maven build output
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+spring.log
+
+# Environment & secrets
+*.env
+.env
+application-local.yml
